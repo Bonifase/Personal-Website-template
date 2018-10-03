@@ -1,5 +1,5 @@
 $primary-color: rgb(0, 140, 255);
-$secondary-color: #228B22;
+$secondary-color: rgb(8, 224, 8);
 
 // body
 body {
@@ -58,4 +58,21 @@ header{
 // text
 .text-secondary{
     color: $secondary-color;
+}
+main{
+    padding: 4rem;
+    height: 100%;
+
+    .icons{
+        margin-top: 1rem;
+
+        a{
+            padding: 0.4rem;
+
+            &:hover{
+                color: $secondary-color;
+                transition: all 0.5s ease-out;
+            }
+        }
+    }
 }
