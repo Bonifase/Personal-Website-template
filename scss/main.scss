@@ -2,7 +2,7 @@ $primary-color: rgb(0, 140, 255);
 $secondary-color: rgb(8, 224, 8);
 $show-home-image: true;
 $home-image: url(../img/backgroung.jpg);
-$background-opacity: 0.9;
+$background-opacity: 0.2;
 
 @mixin easeOut{
     transition: all 0.5s ease-out;
@@ -20,7 +20,8 @@ $background-opacity: 0.9;
                 right: 0;
                 width: 100%;
                 height: 100%;
-                background: $primary-color;
+                z-index: -1;
+                background: rgba($primary-color, $background-opacity);
             }
         }
     }
@@ -46,7 +47,7 @@ body {
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba(68, 68, 68, 0.9); 
+        background: rgba($primary-color,$background-opacity) 
     }
 
 // headings
