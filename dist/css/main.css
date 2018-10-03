@@ -42,3 +42,8 @@ h3.sm-heading {
 a {
   color: #fff;
   text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
