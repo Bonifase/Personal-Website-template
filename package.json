@@ -4,7 +4,7 @@
 	"description": "responsive website",
 	"main": "index.js",
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "react-scripts run sass",
 		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
 	},
 	"repository": {
